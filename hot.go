@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"gopkg.in/fsnotify.v1"
+	"github.com/fsnotify/fsnotify"
 )
 
 type Config struct {
